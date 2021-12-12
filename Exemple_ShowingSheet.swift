@@ -16,7 +16,7 @@ struct mainView: View {
         Button(action:{
             self.showingSheet.toggle() })
                {
-            Text(" appeller la sheetView")
+            Text("appeler la sheetView")
             .padding()
             .background(Color.blue)
             .foregroundColor(.white)
@@ -48,7 +48,7 @@ struct modalView: View {
 
     var body: some View {
         VStack{
-            Text("Je suis une sheet view")
+            Text("Sheet view")
 
             Button(action: {
                 presentationMode.wrappedValue.dismiss()},
